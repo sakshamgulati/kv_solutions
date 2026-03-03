@@ -99,7 +99,7 @@ to { opacity: 1; transform: translateY(0); }
 <div class="grid grid-cols-2 gap-4">
 <div class="p-4 bg-emerald-50 rounded-xl border border-emerald-100 text-center">
 <p class="text-xs font-bold text-emerald-800 uppercase mb-1">Stocking</p>
-<p class="text-[10px] text-emerald-600">Daily Refresh</p>
+<p class="text-[10px] text-emerald-600">Weekly Refresh</p>
 </div>
 <div class="p-4 bg-emerald-50 rounded-xl border border-emerald-100 text-center">
 <p class="text-xs font-bold text-emerald-800 uppercase mb-1">Tech</p>
@@ -146,7 +146,7 @@ to { opacity: 1; transform: translateY(0); }
 <span class="text-xl block mb-1">🏃</span> Fitness Center
 </button>
 <button class="tab-btn flex-1 py-6 px-6 text-center text-stone-500 hover:text-emerald-600 transition focus:outline-none border-t sm:border-t-0 sm:border-l border-stone-200" data-target="lounge">
-<span class="text-xl block mb-1">🍵</span> Coworking Lounge
+<span class="text-xl block mb-1">🍵</span> Lounge
 </button>
 <button class="tab-btn flex-1 py-6 px-6 text-center text-stone-500 hover:text-emerald-600 transition focus:outline-none border-t sm:border-t-0 sm:border-l border-stone-200" data-target="laundry">
 <span class="text-xl block mb-1">🧼</span> Laundry Room
@@ -157,7 +157,8 @@ to { opacity: 1; transform: translateY(0); }
 <div>
 <h3 class="text-2xl font-bold text-stone-800 mb-3" id="loc-title">Fitness Center</h3>
 <p class="text-stone-600 mb-10 leading-relaxed" id="loc-desc">Pure performance hydration and recovery snacks. We focus on low-sugar, high-nutrient density items for your active residents.</p>
-<h4 class="font-bold text-stone-400 mb-6 uppercase tracking-[0.2em] text-[10px]">Curation Highlights</h4>
+<h4 class="font-bold text-stone-400 mb-2 uppercase tracking-[0.2em] text-[10px]">Curation Highlights</h4>
+<p class="text-[10px] text-stone-400 mb-6 italic">Sample selection — products may change over time based on resident preferences.</p>
 <ul class="space-y-5" id="loc-products">
 <!-- Products injected by JS -->
 </ul>
@@ -243,22 +244,22 @@ const locationData = {
 "🥥 Organic Cold-Pressed Coconut Water",
 "🥤 Whey & Plant-Based Protein Shakes",
 "🥜 High-Protein Clean Nut Mixes",
-"⚡ Natural Energy Tea (Zero Sugar)",
-"🍵 Matcha Recovery Shots"
+"💧 Bottled Water",
+"🥣 Granola Bars"
 ],
                 chartLabels: ['Hydration', 'Protein', 'Clean Energy'],
                 chartData: [45, 40, 15],
                 colors: ['#059669', '#10b981', '#6ee7b7']
 },
             lounge: {
-                title: "Coworking Lounge",
-                desc: "Fuel for the remote professional. Healthy snacks to maintain mental clarity and high-quality beverages for long study or work sessions.",
+                title: "Lounge",
+                desc: "Relaxing snacks and beverages for residents unwinding or catching up. A curated mix of healthy and refreshing options.",
                 products: [
-"☕ Cold Brew Nitro Coffee (Unsweetened)",
+"🧃 Minute Maid Juice Box",
 "🍏 Raw Almond & Berry Energy Packs",
 "🥦 Air-Popped Ancient Grain Crisps",
 "🍫 80% Dark Chocolate Quinoa Squares",
-"🍹 Sparkling Botanical Infusions"
+"💧 Sparkling Water (LaCroix)"
 ],
                 chartLabels: ['Beverages', 'Brain Food', 'Healthy Snacks'],
                 chartData: [40, 40, 20],
@@ -270,9 +271,9 @@ const locationData = {
                 products: [
 "🍿 Organic Sea Salt Popcorn",
 "🍪 Vegan Oat & Flaxseed Cookies",
-"🧃 Cold-Pressed Green Juice",
-"🥨 Gluten-Free Rice Pretzels",
-"🫖 Iced Hibiscus Tea (Zero Cal)"
+"🍵 Iced Tea (Brisk)",
+"🥨 Pretzels",
+"🥤 Coke Zero"
 ],
                 chartLabels: ['Comfort Snacks', 'Hydration', 'Fiber Packs'],
                 chartData: [35, 45, 20],
