@@ -80,9 +80,28 @@ We operate with full transparency. Sales data is tracked and reported to the boa
 | **Payment Terms** | Revenue issued monthly/quarterly via direct deposit or check |
 | **Staff Burden** | Zero — your property management team never has to touch a machine |
 
+### Insurance & Liability
+
+KV Solutions carries full **commercial general liability (CGL) insurance** covering third-party bodily injury, property damage, and product-related claims. The condominium corporation bears no liability for the operation of the machines. A certificate of insurance will be provided upon request.
+
 ---
 
 ## 6. OPERATIONAL LOGISTICS & TECHNOLOGY
+
+### Machine Specifications
+
+Each unit is a modern combo vending machine with a compact commercial footprint:
+
+| Spec | Detail |
+|---|---|
+| **Dimensions** | Approx. 72" H × 35" W × 35" D (6 ft × 3 ft × 3 ft) |
+| **Floor Space Required** | ~10–15 sq ft per unit (including service clearance) |
+| **Weight** | Approx. 680–850 lbs |
+| **Finish** | Sleek black/steel exterior to match modern common area decor |
+
+### Electricity
+
+Each machine consumes approximately **250–400 kWh per month**, comparable to running a large household appliance. At current Ontario electricity rates, this works out to roughly **$40–55 per month per unit**. Electricity is drawn from existing common area outlets, which is standard industry practice for vending placements. KV Solutions is happy to discuss a hydro offset arrangement if the board prefers.
 
 ### Contactless Experience
 
@@ -94,9 +113,24 @@ All machines are equipped with NFC technology, supporting Apple Pay, Google Pay,
 - **Cleanliness:** Every service visit includes a full sanitization of the machine's touch surfaces.
 - **Uptime:** Our remote monitoring alerts us to mechanical issues. We aim for a resolution/repair window of 24–48 hours for any technical disruptions.
 
+### Resident Feedback
+
+Each machine features a QR code linking to a resident feedback form. This allows us to adapt product selection based on actual demand and preferences. We review feedback monthly and adjust inventory accordingly.
+
 ---
 
-## 7. NEXT STEPS & PROCEEDING
+## 7. AGREEMENT TERMS
+
+| Term | Detail |
+|---|---|
+| **Initial Term** | 12 months from date of installation |
+| **Renewal** | Automatically renews for successive 12-month terms unless either party provides written notice |
+| **Cancellation** | Either party may cancel with **30 days written notice** at any time |
+| **Equipment Removal** | KV Solutions will remove all equipment within 14 days of termination at no cost to the building |
+
+---
+
+## 8. NEXT STEPS & PROCEEDING
 
 This proposal is specifically curated for **Story of Midtown at 73 Broadway Ave**. If you are interested in proceeding with this amenity upgrade, simply let us know via email.
 
