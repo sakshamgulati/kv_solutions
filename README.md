@@ -22,30 +22,30 @@ This is a **zero-cost, zero-risk partnership**. KV Solutions handles 100% of the
 
 Modern Toronto residents — particularly in the Midtown corridor — are increasingly health-conscious. Traditional vending machines stocked with high-fructose corn syrup and artificial dyes are no longer an amenity; they are a relic.
 
-**Our "Green" Standards:**
+**Our Standards:**
 
-- **Clean Label Policy:** We exclusively source products free from artificial colors, flavors, and preservatives.
-- **Dietary Inclusivity:** Every machine is stocked with a balanced ratio of Vegan, Keto, Gluten-Free, and High-Protein options.
-- **Sustainability:** We prioritize brands with compostable packaging and utilize energy-efficient hardware.
-- **Local Sourcing:** We actively seek out Ontario-based "healthy-snack" startups.
+- **Healthier Options First:** We prioritize products with better nutritional profiles — less sugar, more protein, and fewer artificial additives.
+- **Dietary Variety:** We stock a range of options to suit different dietary preferences, including plant-based, high-protein, and lower-calorie choices.
+- **Environmentally Conscious:** We favour brands with recyclable packaging and use energy-efficient hardware where possible.
+- **Local Sourcing:** We actively seek out Ontario-based snack and beverage brands when available.
 
 ---
 
 ## 3. MARKET RESEARCH: WHY MIDTOWN TORONTO?
 
-Midtown Toronto, specifically the Broadway Ave area, represents a demographic of high-earning young professionals and active urbanites. Research indicates that this demographic is 4x more likely to purchase "grab-and-go" nutrition if it meets clean-label standards.
+Midtown Toronto, specifically the Broadway Ave area, represents a demographic of high-earning young professionals and active urbanites. This demographic increasingly seeks out healthier "grab-and-go" options that meet higher nutritional standards.
 
 By placing KV Solutions units in the Gym, Lounge, and Laundry areas, we capture three distinct "intent" moments:
 
 1. **The Performance Moment (Gym):** Residents seeking immediate protein or electrolytes.
-2. **The Focus Moment (Lounge):** Remote workers seeking caffeine or "brain food".
-3. **The Convenience Moment (Laundry):** Residents seeking a healthy "comfort" snack.
+2. **The Focus Moment (Lounge):** Residents seeking a drink or snack while relaxing.
+3. **The Convenience Moment (Laundry):** Residents seeking a quick snack while waiting.
 
 ---
 
 ## 4. DETAILED LOCATION CURATION
 
-*Sample selection — products may change over time based on resident preferences.*
+*Sample selection — products may change over time based on resident preferences and availability.*
 
 **Zone A: Fitness Center** *(Performance & Recovery)*
 - Organic Coconut Water
@@ -72,7 +72,7 @@ By placing KV Solutions units in the Gym, Lounge, and Laundry areas, we capture 
 
 ## 5. FINANCIAL PARTNERSHIP & TRANSPARENCY
 
-We operate with total transparency. Our machines are equipped with real-time telemetry.
+We operate with full transparency. Sales data is tracked and reported to the board on a regular basis.
 
 | Detail | Terms |
 |---|---|
@@ -86,13 +86,13 @@ We operate with total transparency. Our machines are equipped with real-time tel
 
 ### Contactless Experience
 
-All machines are equipped with the latest NFC technology, supporting Apple Pay, Google Pay, and all major Credit/Debit cards.
+All machines are equipped with NFC technology, supporting Apple Pay, Google Pay, and all major Credit/Debit cards.
 
 ### Maintenance & Stocking
 
-- **Stocking Frequency:** We monitor inventory levels remotely. We guarantee restocking at least once per week and as frequently as needed to ensure constant availability for residents.
+- **Stocking Frequency:** We monitor inventory levels remotely and restock at least once per week, more frequently as needed.
 - **Cleanliness:** Every service visit includes a full sanitization of the machine's touch surfaces.
-- **Uptime Guarantee:** Our remote monitoring alerts us to mechanical issues instantly. We guarantee a resolution/repair window of 24–48 hours for any technical disruptions.
+- **Uptime:** Our remote monitoring alerts us to mechanical issues. We aim for a resolution/repair window of 24–48 hours for any technical disruptions.
 
 ---
 
