@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KV Solutions x Story of Midtown | Proposal</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+html { scroll-behavior: smooth; }
+body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #fafaf9; color: #292524; }
+.chart-container {
+position: relative;
+width: 100%;
+max-width: 600px;
+margin-left: auto;
+margin-right: auto;
+height: 40vh;
+max-height: 400px;
+}
+        @media (min-width: 768px) {
+            .chart-container { height: 350px; }
+        }
+.tab-btn.active {
+border-bottom: 4px solid #059669;
+color: #059669;
+font-weight: 600;
+}
+.fade-in {
+animation: fadeIn 0.4s ease-in-out forwards;
+}
+@keyframes fadeIn {
+from { opacity: 0; transform: translateY(10px); }
+to { opacity: 1; transform: translateY(0); }
+}
+</style>
+</head>
+<body class="antialiased">
+<!--
+        KV Solutions Proposal for Story of Midtown (73 Broadway Ave, Toronto)
+        Hosted on GitHub Pages
+    -->
+<nav class="fixed w-full bg-stone-50/90 backdrop-blur-md z-50 border-b border-stone-200">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between h-16 items-center">
+<div class="flex-shrink-0 flex items-center gap-2 text-emerald-800 font-bold text-xl tracking-tight">
+<span class="bg-emerald-700 text-white px-2 py-0.5 rounded italic">KV</span> SOLUTIONS
+</div>
+<div class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest">
+<a href="#about" class="text-stone-600 hover:text-emerald-600 transition">Mission</a>
+<a href="#locations" class="text-stone-600 hover:text-emerald-600 transition">Curation</a>
+<a href="#financials" class="text-stone-600 hover:text-emerald-600 transition">Revenue</a>
+</div>
+</div>
+</div>
+</nav>
+<main class="pt-24 pb-12">
+<!-- Personalized Hero -->
+<section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-28 text-center">
+<div class="inline-flex items-center gap-2 px-3 py-1 mb-8 text-xs font-bold tracking-widest text-emerald-800 uppercase bg-emerald-100 rounded-lg">
+<span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
+                Proposal for Story of Midtown
+</div>
+<h1 class="text-4xl md:text-6xl font-black text-stone-900 tracking-tight mb-8">
+                Elevated Amenities at <br/> <span class="text-emerald-600">73 Broadway Ave</span>
+</h1>
+<p class="text-xl text-stone-600 max-w-3xl mx-auto mb-12 leading-relaxed">
+                KV Solutions introduces a health-centric vending experience designed specifically for premium Toronto residential spaces. We offer a <strong>5% revenue share</strong> with the condo board, requiring zero management from your staff.
+</p>
+<div class="flex justify-center gap-12 border-t border-stone-200 pt-10">
+<div class="text-center">
+<p class="text-2xl font-bold text-stone-900">5%</p>
+<p class="text-xs text-stone-500 uppercase font-bold tracking-widest">Revenue Share</p>
+</div>
+<div class="text-center">
+<p class="text-2xl font-bold text-stone-900">100%</p>
+<p class="text-xs text-stone-500 uppercase font-bold tracking-widest">Managed</p>
+</div>
+<div class="text-center">
+<p class="text-2xl font-bold text-stone-900">0%</p>
+<p class="text-xs text-stone-500 uppercase font-bold tracking-widest">Capital Cost</p>
+</div>
+</div>
+</section>
+<!-- About KV Solutions -->
+<section id="about" class="bg-white py-20 border-y border-stone-100">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="order-2 lg:order-1">
+<div class="bg-stone-50 p-1 rounded-3xl border border-stone-200 shadow-inner">
+<div class="bg-white p-8 rounded-[1.25rem] shadow-sm">
+<h3 class="text-emerald-700 font-bold mb-4 flex items-center gap-2">
+<span class="w-8 h-8 rounded-lg bg-emerald-700 flex items-center justify-center text-white italic text-sm">KV</span>
+                                    Our Healthy Standard
+</h3>
+<p class="text-stone-600 text-sm leading-relaxed mb-6">
+                                    At KV Solutions, we believe vending should complement the lifestyle of the residents. We focus on "Green" options that prioritize organic ingredients, natural sweeteners, and high nutritional value.
+</p>
+<div class="grid grid-cols-2 gap-4">
+<div class="p-4 bg-emerald-50 rounded-xl border border-emerald-100 text-center">
+<p class="text-xs font-bold text-emerald-800 uppercase mb-1">Stocking</p>
+<p class="text-[10px] text-emerald-600">Daily Refresh</p>
+</div>
+<div class="p-4 bg-emerald-50 rounded-xl border border-emerald-100 text-center">
+<p class="text-xs font-bold text-emerald-800 uppercase mb-1">Tech</p>
+<p class="text-[10px] text-emerald-600">Contactless Pay</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="order-1 lg:order-2">
+<h2 class="text-3xl font-bold text-stone-800 mb-6 italic">KV Solutions Philosophy</h2>
+<p class="text-stone-600 mb-8 leading-relaxed">
+                            We aren't just another vending operator. We are amenity partners. We understand that <strong>Story of Midtown</strong> residents value convenience, but not at the expense of their health.
+</p>
+<ul class="space-y-4 text-stone-700">
+<li class="flex items-center gap-3">
+<span class="text-emerald-600 font-bold">✔</span>
+<span>No traditional high-sugar sodas or greasy chips.</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="text-emerald-600 font-bold">✔</span>
+<span>Premium, sleek hardware that matches modern decor.</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="text-emerald-600 font-bold">✔</span>
+<span>Transparent 5% revenue reporting for the board.</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Curated Locations -->
+<section id="locations" class="py-24 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-3xl font-bold text-stone-800 mb-4 tracking-tight">Space-Specific Curation</h2>
+<p class="text-lg text-stone-600 max-w-3xl mx-auto">
+                    KV Solutions tailors inventory to the specific behavior of residents in different zones of 73 Broadway Ave.
+</p>
+</div>
+<div class="bg-white rounded-[2rem] shadow-xl overflow-hidden border border-stone-200">
+<div class="flex flex-col sm:flex-row border-b border-stone-200 bg-stone-50/50">
+<button class="tab-btn active flex-1 py-6 px-6 text-center text-stone-500 hover:text-emerald-600 transition focus:outline-none" data-target="gym">
+<span class="text-xl block mb-1">🏃</span> Fitness Center
+</button>
+<button class="tab-btn flex-1 py-6 px-6 text-center text-stone-500 hover:text-emerald-600 transition focus:outline-none border-t sm:border-t-0 sm:border-l border-stone-200" data-target="lounge">
+<span class="text-xl block mb-1">🍵</span> Coworking Lounge
+</button>
+<button class="tab-btn flex-1 py-6 px-6 text-center text-stone-500 hover:text-emerald-600 transition focus:outline-none border-t sm:border-t-0 sm:border-l border-stone-200" data-target="laundry">
+<span class="text-xl block mb-1">🧼</span> Laundry Room
+</button>
+</div>
+<div class="p-8 lg:p-14">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center fade-in" id="content-display">
+<div>
+<h3 class="text-2xl font-bold text-stone-800 mb-3" id="loc-title">Fitness Center</h3>
+<p class="text-stone-600 mb-10 leading-relaxed" id="loc-desc">Pure performance hydration and recovery snacks. We focus on low-sugar, high-nutrient density items for your active residents.</p>
+<h4 class="font-bold text-stone-400 mb-6 uppercase tracking-[0.2em] text-[10px]">Curation Highlights</h4>
+<ul class="space-y-5" id="loc-products">
+<!-- Products injected by JS -->
+</ul>
+</div>
+<div class="bg-stone-50 rounded-[1.5rem] p-10 border border-stone-100 flex flex-col items-center">
+<h4 class="text-center font-bold text-stone-400 mb-8 uppercase tracking-widest text-[10px]">Product Mix Ratio</h4>
+<div class="chart-container w-full">
+<canvas id="mixChart"></canvas>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Financial Projections -->
+<section id="financials" class="bg-stone-900 text-stone-50 py-24">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+<div class="lg:col-span-4">
+<h2 class="text-3xl font-bold text-white mb-6">Financial Impact</h2>
+<p class="text-stone-400 mb-10 leading-relaxed">
+                            KV Solutions operates a volume-based model. We track every sale in real-time and provide a quarterly breakdown of the 5% revenue share accrued to the Story of Midtown reserve fund.
+</p>
+<div class="space-y-4">
+<div class="flex items-center gap-4 bg-stone-800 p-5 rounded-2xl border border-stone-700">
+<div class="w-10 h-10 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 font-bold">$</div>
+<div>
+<p class="text-sm font-bold text-white">5% Gross Sales</p>
+<p class="text-xs text-stone-500">Shared Monthly</p>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-stone-800 p-5 rounded-2xl border border-stone-700">
+<div class="w-10 h-10 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 font-bold">0</div>
+<div>
+<p class="text-sm font-bold text-white">Hidden Fees</p>
+<p class="text-xs text-stone-500">Transparency is Key</p>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-8 bg-stone-800/50 rounded-3xl p-6 lg:p-10 border border-stone-700/50 shadow-2xl">
+<h4 class="font-bold text-stone-500 mb-10 text-center text-xs uppercase tracking-widest">Revenue Sharing Projection Model</h4>
+<div class="chart-container">
+<canvas id="financialChart"></canvas>
+</div>
+<p class="text-[10px] text-stone-600 text-center mt-6 italic tracking-tight">Projections based on 3 active KV Solutions units and a conservative 25% daily engagement rate from residents.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Proceed Section -->
+<section class="py-24 bg-white text-center">
+<div class="max-w-2xl mx-auto px-4">
+<div class="flex justify-center mb-10">
+<span class="w-20 h-20 rounded-full bg-emerald-50 border-4 border-emerald-100 flex items-center justify-center text-3xl">🤝</span>
+</div>
+<h2 class="text-3xl font-black text-stone-900 mb-6">Ready to Partner with KV Solutions?</h2>
+<p class="text-stone-600 text-xl leading-relaxed mb-12">
+                    This is a curated proposal specifically for the management at <strong>Story of Midtown, 73 Broadway Ave, Toronto</strong>.
+                    If you are interested in this amenity partnership, <strong>let us know and we will proceed</strong> with the contract and installation.
+</p>
+<div class="bg-stone-50 p-6 rounded-2xl border border-stone-200 inline-block">
+<p class="text-stone-400 font-bold text-sm tracking-widest uppercase mb-1">Proposal ID</p>
+<p class="text-stone-900 font-mono font-bold text-lg">KV-MIDTOWN-2024</p>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-stone-900 text-stone-600 py-12 border-t border-stone-800">
+<div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-2 text-white font-bold italic">
+                KV SOLUTIONS
+</div>
+<p class="text-[10px] uppercase tracking-widest text-stone-500">&copy; 2024 KV Solutions Toronto. Confidential Partnership Proposal.</p>
+</div>
+</footer>
+<script>
+const locationData = {
+            gym: {
+                title: "Fitness Center",
+                desc: "Optimized for post-workout recovery and sustained energy. We prioritize hydration and high-protein content without artificial additives.",
+                products: [
+"🥥 Organic Cold-Pressed Coconut Water",
+"🥤 Whey & Plant-Based Protein Shakes",
+"🥜 High-Protein Clean Nut Mixes",
+"⚡ Natural Energy Tea (Zero Sugar)",
+"🍵 Matcha Recovery Shots"
+],
+                chartLabels: ['Hydration', 'Protein', 'Clean Energy'],
+                chartData: [45, 40, 15],
+                colors: ['#059669', '#10b981', '#6ee7b7']
+},
+            lounge: {
+                title: "Coworking Lounge",
+                desc: "Fuel for the remote professional. Healthy snacks to maintain mental clarity and high-quality beverages for long study or work sessions.",
+                products: [
+"☕ Cold Brew Nitro Coffee (Unsweetened)",
+"🍏 Raw Almond & Berry Energy Packs",
+"🥦 Air-Popped Ancient Grain Crisps",
+"🍫 80% Dark Chocolate Quinoa Squares",
+"🍹 Sparkling Botanical Infusions"
+],
+                chartLabels: ['Beverages', 'Brain Food', 'Healthy Snacks'],
+                chartData: [40, 40, 20],
+                colors: ['#047857', '#10b981', '#a7f3d0']
+},
+            laundry: {
+                title: "Laundry Room",
+                desc: "Quick and healthy comfort options for residents waiting on chores. Focus on high-fiber and natural ingredients.",
+                products: [
+"🍿 Organic Sea Salt Popcorn",
+"🍪 Vegan Oat & Flaxseed Cookies",
+"🧃 Cold-Pressed Green Juice",
+"🥨 Gluten-Free Rice Pretzels",
+"🫖 Iced Hibiscus Tea (Zero Cal)"
+],
+                chartLabels: ['Comfort Snacks', 'Hydration', 'Fiber Packs'],
+                chartData: [35, 45, 20],
+                colors: ['#b45309', '#d97706', '#fbbf24']
+}
+};
+let mixChartInstance = null;
+let financialChartInstance = null;
+function updateContent(locationKey) {
+const data = locationData[locationKey];
+            document.getElementById('loc-title').innerText = data.title;
+            document.getElementById('loc-desc').innerText = data.desc;
+const listEl = document.getElementById('loc-products');
+            listEl.innerHTML = '';
+            data.products.forEach(prod => {
+const li = document.createElement('li');
+                li.className = "flex items-center text-stone-700 font-semibold text-sm";
+                li.innerHTML = `<span class="bg-emerald-100 text-emerald-700 w-6 h-6 rounded-md flex items-center justify-center mr-4 text-xs">✔</span> <span>${prod}</span>`;
+                listEl.appendChild(li);
+});
+const contentDisplay = document.getElementById('content-display');
+            contentDisplay.classList.remove('fade-in');
+void contentDisplay.offsetWidth;
+            contentDisplay.classList.add('fade-in');
+if (mixChartInstance) {
+                mixChartInstance.data.labels = data.chartLabels;
+                mixChartInstance.data.datasets[0].data = data.chartData;
+                mixChartInstance.data.datasets[0].backgroundColor = data.colors;
+                mixChartInstance.update();
+} else {
+const ctx = document.getElementById('mixChart').getContext('2d');
+                mixChartInstance = new Chart(ctx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: data.chartLabels,
+                        datasets: [{
+                            data: data.chartData,
+                            backgroundColor: data.colors,
+                            borderWidth: 0,
+                            hoverOffset: 12
+}]
+},
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        cutout: '80%',
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                                labels: { color: '#78716c', padding: 25, font: { weight: '700', size: 10 } }
+}
+}
+}
+});
+}
+}
+function initFinancialChart() {
+const ctx = document.getElementById('financialChart').getContext('2d');
+const months = ['Q1 Jan', 'Q1 Feb', 'Q1 Mar', 'Q2 Apr', 'Q2 May', 'Q2 Jun', 'Q3 Jul', 'Q3 Aug', 'Q3 Sep', 'Q4 Oct', 'Q4 Nov', 'Q4 Dec'];
+const grossSales = [2300, 2400, 2600, 2550, 2750, 2900, 3100, 2950, 3200, 3350, 3500, 3800];
+const condoShare = grossSales.map(sale => sale * 0.05);
+            financialChartInstance = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: months,
+                    datasets: [
+{
+                            label: 'Condo 5% Share ($)',
+                            data: condoShare,
+                            backgroundColor: '#10b981',
+                            borderRadius: 4,
+                            yAxisID: 'y'
+},
+{
+                            label: 'KV Solutions Sales ($)',
+                            data: grossSales,
+                            backgroundColor: 'rgba(255, 255, 255, 0.05)',
+                            borderColor: 'rgba(255, 255, 255, 0.1)',
+                            borderWidth: 1,
+                            borderRadius: 4,
+                            yAxisID: 'y1'
+}
+]
+},
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'top', labels: { color: '#57534e', font: { size: 10, weight: '700' } } },
+                        tooltip: {
+                            backgroundColor: '#1c1917',
+                            titleFont: { weight: 'bold' },
+                            callbacks: {
+                                label: function(context) {
+return context.dataset.label + ': ' + new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(context.parsed.y);
+}
+}
+}
+},
+                    scales: {
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            grid: { color: 'rgba(255, 255, 255, 0.05)', drawBorder: false },
+                            ticks: { color: '#10b981', font: { weight: 'bold' } }
+},
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            grid: { display: false },
+                            ticks: { color: '#57534e' }
+},
+                        x: {
+                            grid: { display: false },
+                            ticks: { color: '#57534e', font: { size: 9 } }
+}
+}
+}
+});
+}
+        document.addEventListener('DOMContentLoaded', () => {
+            updateContent('gym');
+            initFinancialChart();
+const buttons = document.querySelectorAll('.tab-btn');
+            buttons.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    buttons.forEach(b => b.classList.remove('active'));
+                    e.currentTarget.classList.add('active');
+                    updateContent(e.currentTarget.getAttribute('data-target'));
+});
+});
+});
+</script>
+</body>
+</html>
