@@ -14,7 +14,7 @@
 
 KV Solutions is pleased to submit this proposal for the implementation of a boutique, health-focused vending network at Story of Midtown. Our mission is to replace the antiquated "junk food" vending model with a curated, "Green" retail experience that mirrors the wellness-oriented lifestyle of your residents.
 
-This is a **zero-cost, zero-risk partnership**. KV Solutions handles 100% of the equipment, installation, and daily operations. In exchange for the placement, we provide the condominium corporation with a **5% share of all gross monthly revenue**, creating a new, passive income stream for the reserve fund.
+This is a **zero-cost amenity partnership**. KV Solutions handles 100% of the equipment, installation, and daily operations. Your building gets a premium resident amenity at no capital cost and no management burden.
 
 ---
 
@@ -70,15 +70,15 @@ By placing KV Solutions units in the Gym, Lounge, and Laundry areas, we capture 
 
 ---
 
-## 5. FINANCIAL PARTNERSHIP & TRANSPARENCY
+## 5. WHY THIS WORKS FOR YOUR BUILDING
 
-We operate with full transparency. Sales data is tracked and reported to the board on a regular basis.
+KV Solutions provides a premium amenity that enhances the resident experience at Story of Midtown — at absolutely no cost to the condominium corporation.
 
-| Detail | Terms |
+| What You Get | Detail |
 |---|---|
-| **Condo Revenue Share** | 5% of all Gross Sales |
-| **Payment Terms** | Revenue issued monthly/quarterly via direct deposit or check |
-| **Staff Burden** | Zero — your property management team never has to touch a machine |
+| **Zero Capital Investment** | No equipment purchase, no installation fees, no ongoing costs. KV Solutions owns and operates all hardware. |
+| **Premium Resident Amenity** | Residents get 24/7 access to curated, healthy food and drinks — a tangible upgrade that adds real value to daily life. |
+| **Zero Staff Time** | No management burden on property staff. KV Solutions handles stocking, cleaning, maintenance, and resident feedback. |
 
 ### Insurance & Liability
 
