@@ -1,6 +1,6 @@
-# BUSINESS PROPOSAL: 73 Broadway Ave
+# BUSINESS PROPOSAL: 73 & 75 Broadway Ave
 
-**Prepared for:** Management & Board of Directors, Story of Midtown (73 Broadway Ave)
+**Prepared for:** Management & Board of Directors, Story of Midtown (73 & 75 Broadway Ave)
 **Prepared by:** Kshamta Gulati, KV Solutions
 **Date:** March 2024
 
@@ -132,7 +132,7 @@ Each machine features a QR code linking to a resident feedback form. This allows
 
 ## 8. NEXT STEPS & PROCEEDING
 
-This proposal is specifically curated for **Story of Midtown at 73 Broadway Ave**. If you are interested in proceeding with this amenity upgrade, simply let us know via email.
+This proposal is specifically curated for **Story of Midtown at 73 & 75 Broadway Ave**. If you are interested in proceeding with this amenity upgrade, simply let us know via email.
 
 **KV Solutions Toronto**
 - **Primary Contacts:** kshamta99@gmail.com | sakshamgulati123@gmail.com
