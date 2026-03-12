@@ -1,8 +1,8 @@
-# BUSINESS PROPOSAL: 73 & 75 Broadway Ave
+# BUSINESS PROPOSAL: 117 & 127 Broadway Ave — Line 5 Condos
 
-**Prepared for:** Management & Board of Directors, Story of Midtown (73 & 75 Broadway Ave)
+**Prepared for:** Management & Board of Directors, Line 5 Condos (117 & 127 Broadway Ave)
 **Prepared by:** Kshamta Gulati, KV Solutions
-**Date:** March 2024
+**Date:** March 2025
 
 ---
 
@@ -12,7 +12,7 @@
 
 ## 1. EXECUTIVE SUMMARY
 
-KV Solutions is pleased to submit this proposal for the implementation of a boutique, health-focused vending network at Story of Midtown. Our mission is to replace the antiquated "junk food" vending model with a curated, "Green" retail experience that mirrors the wellness-oriented lifestyle of your residents.
+KV Solutions is pleased to submit this proposal for the implementation of a boutique, health-focused vending network at Line 5 Condos. Our mission is to replace the antiquated "junk food" vending model with a curated, "Green" retail experience that mirrors the wellness-oriented lifestyle of your residents.
 
 This is a **zero-cost amenity partnership**. KV Solutions handles 100% of the equipment, installation, and daily operations. Your building gets a premium resident amenity at no capital cost and no management burden.
 
@@ -20,7 +20,7 @@ This is a **zero-cost amenity partnership**. KV Solutions handles 100% of the eq
 
 ## 2. THE KV SOLUTIONS PHILOSOPHY: "HEALTHY & GREEN"
 
-Modern Toronto residents — particularly in the Midtown corridor — are increasingly health-conscious. Traditional vending machines stocked with high-fructose corn syrup and artificial dyes are no longer an amenity; they are a relic.
+Modern Toronto residents — particularly in the Yonge & Eglinton corridor — are increasingly health-conscious. Traditional vending machines stocked with high-fructose corn syrup and artificial dyes are no longer an amenity; they are a relic.
 
 **Our Standards:**
 
@@ -31,15 +31,14 @@ Modern Toronto residents — particularly in the Midtown corridor — are increa
 
 ---
 
-## 3. MARKET RESEARCH: WHY MIDTOWN TORONTO?
+## 3. MARKET RESEARCH: WHY LINE 5 CONDOS?
 
-Midtown Toronto, specifically the Broadway Ave area, represents a demographic of high-earning young professionals and active urbanites. This demographic increasingly seeks out healthier "grab-and-go" options that meet higher nutritional standards.
+Line 5 Condos at 117 & 127 Broadway Ave represents one of Midtown Toronto's newest and most premium residential developments — nearly 900 suites across two towers steps from Eglinton Subway and the new Crosstown LRT. The resident base skews toward high-earning young professionals and active urbanites who demand convenience without compromising on quality or health.
 
-By placing KV Solutions units in the Gym, Lounge, and Laundry areas, we capture three distinct "intent" moments:
+By placing KV Solutions units in the Fitness Center and Co-working Lounge, we capture two distinct high-value "intent" moments:
 
-1. **The Performance Moment (Gym):** Residents seeking immediate protein or electrolytes.
-2. **The Focus Moment (Lounge):** Residents seeking a drink or snack while relaxing.
-3. **The Convenience Moment (Laundry):** Residents seeking a quick snack while waiting.
+1. **The Performance Moment (Gym):** Residents seeking immediate protein, electrolytes, or post-workout recovery fuel.
+2. **The Focus Moment (Co-working Lounge):** Residents and remote workers seeking clean caffeine, brain food, and sustained energy for deep work sessions.
 
 ---
 
@@ -48,31 +47,24 @@ By placing KV Solutions units in the Gym, Lounge, and Laundry areas, we capture 
 *Sample selection — products may change over time based on resident preferences and availability.*
 
 **Zone A: Fitness Center** *(Performance & Recovery)*
-- Organic Coconut Water
-- Ready-to-Drink Plant Protein Shakes
+- Organic Cold-Pressed Coconut Water
+- Whey & Plant-Based Protein Shakes
 - High-Protein Clean Nut Mixes
 - Bottled Water
 - Granola Bars
 
-**Zone B: Resident Lounge** *(Sustenance & Clarity)*
-- Minute Maid Juice Box
-- Raw Almond & Berry Energy Packs
-- Air-Popped Ancient Grain Crisps
-- 80% Dark Chocolate Quinoa Squares
+**Zone B: Co-working Lounge** *(Brain Fuel & Focus)*
+- Ready-to-Drink Cold Brew Coffee
+- Matcha Latte (Matchabar)
+- Mixed Nuts & Trail Mix
+- RXBar / Quest Protein Bars
 - Sparkling Water (LaCroix)
-
-**Zone C: Laundry / Utility** *(Healthy Convenience)*
-- Organic Sea Salt Popcorn
-- Vegan Oat & Flaxseed Cookies
-- Iced Tea (Brisk)
-- Pretzels
-- Coke Zero
 
 ---
 
 ## 5. WHY THIS WORKS FOR YOUR BUILDING
 
-KV Solutions provides a premium amenity that enhances the resident experience at Story of Midtown — at absolutely no cost to the condominium corporation.
+KV Solutions provides a premium amenity that enhances the resident experience at Line 5 Condos — at absolutely no cost to the condominium corporation.
 
 | What You Get | Detail |
 |---|---|
@@ -132,8 +124,9 @@ Each machine features a QR code linking to a resident feedback form. This allows
 
 ## 8. NEXT STEPS & PROCEEDING
 
-This proposal is specifically curated for **Story of Midtown at 73 & 75 Broadway Ave**. If you are interested in proceeding with this amenity upgrade, simply let us know via email.
+This proposal is specifically curated for **Line 5 Condos at 117 & 127 Broadway Ave, Toronto**. If you are interested in proceeding with this amenity upgrade, simply let us know via email.
 
 **KV Solutions Toronto**
 - **Primary Contacts:** kshamta99@gmail.com | sakshamgulati123@gmail.com
 - **Project Site:** [https://sakshamgulati.github.io/kv_solutions/](https://sakshamgulati.github.io/kv_solutions/)
+- **Proposal ID:** KV-LINE5-2025
