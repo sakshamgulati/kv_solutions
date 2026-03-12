@@ -3,383 +3,383 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KV Solutions x Line 5 Condos | Proposal</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<!-- Chart.js used for product mix doughnut charts -->
+<title>KV Solutions x Line 5 Condos | Business Proposal</title>
 <style>
-html { scroll-behavior: smooth; }
-body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #fafaf9; color: #292524; }
-.chart-container {
-position: relative;
-width: 100%;
-max-width: 600px;
-margin-left: auto;
-margin-right: auto;
-height: 40vh;
-max-height: 400px;
-}
-        @media (min-width: 768px) {
-            .chart-container { height: 350px; }
-        }
-.tab-btn.active {
-border-bottom: 4px solid #059669;
-color: #059669;
-font-weight: 600;
-}
-.fade-in {
-animation: fadeIn 0.4s ease-in-out forwards;
-}
-@keyframes fadeIn {
-from { opacity: 0; transform: translateY(10px); }
-to { opacity: 1; transform: translateY(0); }
-}
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Georgia', serif;
+    background: #f4f4f0;
+    color: #1a1a1a;
+    line-height: 1.75;
+    font-size: 15px;
+  }
+
+  .page {
+    max-width: 820px;
+    margin: 48px auto;
+    background: #ffffff;
+    padding: 72px 80px;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+  }
+
+  .header {
+    text-align: center;
+    border-bottom: 2px solid #1a1a1a;
+    padding-bottom: 32px;
+    margin-bottom: 36px;
+  }
+
+  .kv-badge {
+    display: inline-block;
+    background: #1a4731;
+    color: #fff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 2px;
+    margin-bottom: 24px;
+  }
+
+  h1 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+    line-height: 1.3;
+  }
+
+  .meta {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 13px;
+    color: #444;
+    line-height: 2;
+  }
+
+  .meta strong { color: #1a1a1a; }
+
+  .divider {
+    border: none;
+    border-top: 1px solid #d0d0c8;
+    margin: 32px 0;
+  }
+
+  .section { margin-bottom: 36px; }
+
+  .section-number {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 11px;
+    color: #999;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  h2 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #1a4731;
+    border-bottom: 1px solid #d0d0c8;
+    padding-bottom: 8px;
+    margin-bottom: 18px;
+  }
+
+  h3 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+
+  p { margin-bottom: 12px; color: #2a2a2a; }
+
+  ul, ol { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 5px; color: #2a2a2a; }
+
+  strong { font-weight: 700; color: #1a1a1a; }
+  em { font-style: italic; color: #666; font-size: 13px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0 20px 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 13px;
+  }
+
+  table th, table td {
+    border: 1px solid #d0d0c8;
+    padding: 10px 14px;
+    vertical-align: top;
+  }
+
+  table th {
+    background: #f4f4f0;
+    font-weight: 700;
+    color: #1a1a1a;
+    width: 34%;
+  }
+
+  table td { color: #2a2a2a; }
+
+  .zone-title {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-bottom: 6px;
+  }
+
+  .zone-sub {
+    font-weight: 400;
+    font-style: italic;
+    color: #666;
+    font-size: 13px;
+  }
+
+  .highlight-box {
+    background: #f0f6f2;
+    border-left: 3px solid #1a4731;
+    padding: 13px 17px;
+    margin: 14px 0;
+    font-size: 14px;
+  }
+
+  .footer {
+    margin-top: 44px;
+    padding-top: 22px;
+    border-top: 2px solid #1a1a1a;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 12px;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .footer .kv-name {
+    font-weight: 700;
+    color: #1a1a1a;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .footer a { color: #1a4731; text-decoration: none; }
+
+  @media (max-width: 640px) {
+    .page { padding: 36px 24px; margin: 0; }
+    h1 { font-size: 20px; }
+    .footer { flex-direction: column; gap: 12px; }
+  }
+
+  @media print {
+    body { background: white; }
+    .page { box-shadow: none; margin: 0; padding: 48px 60px; }
+  }
 </style>
 </head>
-<body class="antialiased">
-<!--
-        KV Solutions Proposal for Line 5 Condos (117 & 127 Broadway Ave, Toronto)
-        Hosted on GitHub Pages
-    -->
-<nav class="fixed w-full bg-stone-50/90 backdrop-blur-md z-50 border-b border-stone-200">
-<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="flex justify-between h-16 items-center">
-<div class="flex-shrink-0 flex items-center gap-2 text-emerald-800 font-bold text-xl tracking-tight">
-<span class="bg-emerald-700 text-white px-2 py-0.5 rounded italic">KV</span> SOLUTIONS
+<body>
+<div class="page">
+
+  <div class="header">
+    <div class="kv-badge">KV Solutions</div>
+    <h1>Business Proposal:<br>117 & 127 Broadway Avenue, Toronto</h1>
+    <div class="meta">
+      <strong>Prepared for:</strong> Management & Board of Directors, Line 5 Condos<br>
+      <strong>Prepared by:</strong> Kshamta Gulati, KV Solutions<br>
+      <strong>Date:</strong> March 2025<br>
+      <strong>Contact:</strong> kshamta99@gmail.com &nbsp;|&nbsp; sakshamgulati123@gmail.com
+    </div>
+  </div>
+
+  <!-- 1 -->
+  <div class="section">
+    <span class="section-number">01</span>
+    <h2>Executive Summary</h2>
+    <p>KV Solutions is pleased to submit this proposal for the implementation of a boutique, health-focused vending network at Line 5 Condos. Our mission is to replace the outdated "junk food" vending model with a curated, "Green" retail experience that mirrors the wellness-oriented lifestyle of your residents.</p>
+    <div class="highlight-box">
+      This is a <strong>zero-cost, zero-risk partnership</strong>. KV Solutions handles 100% of the equipment, installation, and daily operations. Your building receives a premium resident amenity at no capital cost and no management burden whatsoever.
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- 2 -->
+  <div class="section">
+    <span class="section-number">02</span>
+    <h2>The KV Solutions Philosophy: "Healthy & Green"</h2>
+    <p>Modern Toronto residents — particularly along the Yonge & Eglinton corridor — are increasingly health-conscious. Traditional vending machines are no longer an amenity; they are a relic.</p>
+    <ul>
+      <li><strong>Healthier Options First:</strong> Less sugar, more protein, fewer artificial additives.</li>
+      <li><strong>Dietary Variety:</strong> Plant-based, high-protein, and lower-calorie choices.</li>
+      <li><strong>Environmentally Conscious:</strong> Recyclable packaging and energy-efficient hardware.</li>
+      <li><strong>Local Sourcing:</strong> Ontario-based brands where available.</li>
+    </ul>
+  </div>
+
+  <hr class="divider">
+
+  <!-- 3 -->
+  <div class="section">
+    <span class="section-number">03</span>
+    <h2>Why Line 5 Condos?</h2>
+    <p>Line 5 Condos represents one of Midtown Toronto's newest luxury developments — nearly 900 suites across two towers, steps from Eglinton Subway and the new Crosstown LRT. Residents are high-earning young professionals who demand convenience without compromising on health.</p>
+    <p>We target two high-value moments in the building:</p>
+    <ol>
+      <li><strong>The Performance Moment (Fitness Center):</strong> Residents seeking protein, electrolytes, or post-workout recovery fuel.</li>
+      <li><strong>The Focus Moment (Co-working Lounge):</strong> Remote workers and professionals seeking clean caffeine and sustained energy.</li>
+    </ol>
+  </div>
+
+  <hr class="divider">
+
+  <!-- 4 -->
+  <div class="section">
+    <span class="section-number">04</span>
+    <h2>Location Curation</h2>
+    <p><em>Sample selection — products adapt to resident preferences over time.</em></p>
+
+    <div class="zone-title">Zone A: Fitness Center <span class="zone-sub">(Performance & Recovery)</span></div>
+    <ul>
+      <li>Organic Cold-Pressed Coconut Water</li>
+      <li>Ready-to-Drink Plant Protein Shakes</li>
+      <li>High-Protein Clean Nut Mixes</li>
+      <li>Bottled Water</li>
+      <li>Granola Bars</li>
+    </ul>
+
+    <div class="zone-title">Zone B: Co-working Lounge <span class="zone-sub">(Brain Fuel & Focus)</span></div>
+    <ul>
+      <li>Ready-to-Drink Cold Brew Coffee</li>
+      <li>Matcha Latte (Matchabar)</li>
+      <li>Mixed Nuts & Trail Mix</li>
+      <li>RXBar / Quest Protein Bars</li>
+      <li>Sparkling Water (LaCroix)</li>
+    </ul>
+  </div>
+
+  <hr class="divider">
+
+  <!-- 5 -->
+  <div class="section">
+    <span class="section-number">05</span>
+    <h2>What the Building Gets</h2>
+    <table>
+      <tr>
+        <th>Zero Capital Investment</th>
+        <td>No equipment purchase, no installation fees, no ongoing costs. KV Solutions owns and operates all hardware.</td>
+      </tr>
+      <tr>
+        <th>Zero Staff Time</th>
+        <td>Your property management team never has to touch a machine. We handle stocking, cleaning, and maintenance.</td>
+      </tr>
+      <tr>
+        <th>Full Insurance Coverage</th>
+        <td>KV Solutions carries full CGL insurance. The condominium corporation bears zero liability. Certificate available on request.</td>
+      </tr>
+      <tr>
+        <th>24/7 Resident Access</th>
+        <td>Apple Pay, Google Pay, and all major Credit/Debit cards. No cash handling required.</td>
+      </tr>
+    </table>
+  </div>
+
+  <hr class="divider">
+
+  <!-- 6 -->
+  <div class="section">
+    <span class="section-number">06</span>
+    <h2>Operations & Equipment</h2>
+
+    <table>
+      <tr>
+        <th>Dimensions</th>
+        <td>Approx. 72" H &times; 35" W &times; 35" D (6 ft &times; 3 ft &times; 3 ft)</td>
+      </tr>
+      <tr>
+        <th>Floor Space</th>
+        <td>~10–15 sq ft per unit including service clearance</td>
+      </tr>
+      <tr>
+        <th>Electricity</th>
+        <td>~$40–55/month per unit at Ontario rates. Drawn from existing common area outlets — standard industry practice. Hydro offset arrangement available on request.</td>
+      </tr>
+      <tr>
+        <th>Stocking</th>
+        <td>Weekly remote-monitored restocking, with sanitization of touch surfaces on every visit.</td>
+      </tr>
+      <tr>
+        <th>Uptime</th>
+        <td>24–48 hour resolution window for any mechanical issues via remote monitoring.</td>
+      </tr>
+      <tr>
+        <th>Resident Feedback</th>
+        <td>QR code on each machine links to a feedback form. Inventory adjusted monthly based on resident input.</td>
+      </tr>
+    </table>
+  </div>
+
+  <hr class="divider">
+
+  <!-- 7 -->
+  <div class="section">
+    <span class="section-number">07</span>
+    <h2>Agreement Terms</h2>
+    <table>
+      <tr>
+        <th>Initial Term</th>
+        <td>12 months from date of installation</td>
+      </tr>
+      <tr>
+        <th>Renewal</th>
+        <td>Auto-renews annually unless either party provides written notice</td>
+      </tr>
+      <tr>
+        <th>Cancellation</th>
+        <td><strong>30 days written notice</strong> at any time</td>
+      </tr>
+      <tr>
+        <th>Equipment Removal</th>
+        <td>Within 14 days of termination, at no cost to the building</td>
+      </tr>
+    </table>
+  </div>
+
+  <hr class="divider">
+
+  <!-- 8 -->
+  <div class="section">
+    <span class="section-number">08</span>
+    <h2>Next Steps</h2>
+    <p>This proposal is specifically curated for <strong>Line 5 Condos at 117 & 127 Broadway Ave, Toronto</strong>. If you are interested in proceeding, simply reach out via email and we will move forward with the agreement and installation.</p>
+    <p>
+      <strong>KV Solutions Toronto</strong><br>
+      kshamta99@gmail.com &nbsp;|&nbsp; sakshamgulati123@gmail.com<br>
+      <a href="https://sakshamgulati.github.io/kv_solutions/">sakshamgulati.github.io/kv_solutions</a>
+    </p>
+  </div>
+
+  <div class="footer">
+    <div>
+      <div class="kv-name">KV Solutions Toronto</div>
+      <div>Confidential Partnership Proposal &copy; 2025</div>
+    </div>
+    <div style="text-align:right;">
+      <div>Proposal ID: KV-LINE5-2025</div>
+      <div><a href="https://sakshamgulati.github.io/kv_solutions/">sakshamgulati.github.io/kv_solutions</a></div>
+    </div>
+  </div>
+
 </div>
-<div class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest">
-<a href="#about" class="text-stone-600 hover:text-emerald-600 transition">Mission</a>
-<a href="#locations" class="text-stone-600 hover:text-emerald-600 transition">Curation</a>
-<a href="#financials" class="text-stone-600 hover:text-emerald-600 transition">Value</a>
-<a href="#operations" class="text-stone-600 hover:text-emerald-600 transition">Operations</a>
-</div>
-</div>
-</div>
-</nav>
-<main class="pt-24 pb-12">
-<!-- Personalized Hero -->
-<section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-28 text-center">
-<div class="inline-flex items-center gap-2 px-3 py-1 mb-8 text-xs font-bold tracking-widest text-emerald-800 uppercase bg-emerald-100 rounded-lg">
-<span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
-                Proposal for Line 5 Condos
-</div>
-<h1 class="text-4xl md:text-6xl font-black text-stone-900 tracking-tight mb-8">
-                Elevated Amenities at <br/> <span class="text-emerald-600">117 & 127 Broadway Ave</span>
-</h1>
-<p class="text-xl text-stone-600 max-w-3xl mx-auto mb-12 leading-relaxed">
-                KV Solutions introduces a health-centric vending experience designed specifically for Line 5 Condos. A <strong>fully managed amenity upgrade</strong> at zero cost to the building — we handle everything.
-</p>
-<div class="flex justify-center gap-12 border-t border-stone-200 pt-10">
-<div class="text-center">
-<p class="text-2xl font-bold text-stone-900">$0</p>
-<p class="text-xs text-stone-500 uppercase font-bold tracking-widest">Cost to Building</p>
-</div>
-<div class="text-center">
-<p class="text-2xl font-bold text-stone-900">100%</p>
-<p class="text-xs text-stone-500 uppercase font-bold tracking-widest">Managed by KV</p>
-</div>
-<div class="text-center">
-<p class="text-2xl font-bold text-stone-900">24/7</p>
-<p class="text-xs text-stone-500 uppercase font-bold tracking-widest">Resident Access</p>
-</div>
-</div>
-</section>
-<!-- About KV Solutions -->
-<section id="about" class="bg-white py-20 border-y border-stone-100">
-<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-<div class="order-2 lg:order-1">
-<div class="bg-stone-50 p-1 rounded-3xl border border-stone-200 shadow-inner">
-<div class="bg-white p-8 rounded-[1.25rem] shadow-sm">
-<h3 class="text-emerald-700 font-bold mb-4 flex items-center gap-2">
-<span class="w-8 h-8 rounded-lg bg-emerald-700 flex items-center justify-center text-white italic text-sm">KV</span>
-                                    Our Healthy Standard
-</h3>
-<p class="text-stone-600 text-sm leading-relaxed mb-6">
-                                    At KV Solutions, we believe vending should complement the lifestyle of the residents. We focus on "Green" options that prioritize organic ingredients, natural sweeteners, and high nutritional value.
-</p>
-<div class="grid grid-cols-2 gap-4">
-<div class="p-4 bg-emerald-50 rounded-xl border border-emerald-100 text-center">
-<p class="text-xs font-bold text-emerald-800 uppercase mb-1">Stocking</p>
-<p class="text-[10px] text-emerald-600">Weekly Refresh</p>
-</div>
-<div class="p-4 bg-emerald-50 rounded-xl border border-emerald-100 text-center">
-<p class="text-xs font-bold text-emerald-800 uppercase mb-1">Tech</p>
-<p class="text-[10px] text-emerald-600">Contactless Pay</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="order-1 lg:order-2">
-<h2 class="text-3xl font-bold text-stone-800 mb-6 italic">KV Solutions Philosophy</h2>
-<p class="text-stone-600 mb-8 leading-relaxed">
-                            We aren't just another vending operator. We are amenity partners. We understand that <strong>Line 5 Condos</strong> residents value convenience, but not at the expense of their health.
-</p>
-<ul class="space-y-4 text-stone-700">
-<li class="flex items-center gap-3">
-<span class="text-emerald-600 font-bold">✔</span>
-<span>Healthier options first — less sugar, more nutrition.</span>
-</li>
-<li class="flex items-center gap-3">
-<span class="text-emerald-600 font-bold">✔</span>
-<span>Premium, sleek hardware that matches modern decor.</span>
-</li>
-<li class="flex items-center gap-3">
-<span class="text-emerald-600 font-bold">✔</span>
-<span>Zero cost, zero management for the board.</span>
-</li>
-<li class="flex items-center gap-3">
-<span class="text-emerald-600 font-bold">✔</span>
-<span>Full commercial liability insurance — zero risk to the board.</span>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<!-- Curated Locations -->
-<section id="locations" class="py-24 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="text-center mb-16">
-<h2 class="text-3xl font-bold text-stone-800 mb-4 tracking-tight">Space-Specific Curation</h2>
-<p class="text-lg text-stone-600 max-w-3xl mx-auto">
-                    KV Solutions tailors inventory to the specific behavior of residents in different zones of 117 & 127 Broadway Ave.
-</p>
-</div>
-<div class="bg-white rounded-[2rem] shadow-xl overflow-hidden border border-stone-200">
-<div class="flex flex-col sm:flex-row border-b border-stone-200 bg-stone-50/50">
-<button class="tab-btn active flex-1 py-6 px-6 text-center text-stone-500 hover:text-emerald-600 transition focus:outline-none" data-target="gym">
-<span class="text-xl block mb-1">🏃</span> Fitness Center
-</button>
-<button class="tab-btn flex-1 py-6 px-6 text-center text-stone-500 hover:text-emerald-600 transition focus:outline-none border-t sm:border-t-0 sm:border-l border-stone-200" data-target="coworking">
-<span class="text-xl block mb-1">💻</span> Co-working Lounge
-</button>
-</div>
-<div class="p-8 lg:p-14">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center fade-in" id="content-display">
-<div>
-<h3 class="text-2xl font-bold text-stone-800 mb-3" id="loc-title">Fitness Center</h3>
-<p class="text-stone-600 mb-10 leading-relaxed" id="loc-desc">Pure performance hydration and recovery snacks. We focus on low-sugar, high-nutrient density items for your active residents.</p>
-<h4 class="font-bold text-stone-400 mb-2 uppercase tracking-[0.2em] text-[10px]">Curation Highlights</h4>
-<p class="text-[10px] text-stone-400 mb-6 italic">Sample selection — products may change over time based on resident preferences.</p>
-<ul class="space-y-5" id="loc-products">
-<!-- Products injected by JS -->
-</ul>
-</div>
-<div class="bg-stone-50 rounded-[1.5rem] p-10 border border-stone-100 flex flex-col items-center">
-<h4 class="text-center font-bold text-stone-400 mb-8 uppercase tracking-widest text-[10px]">Product Mix Ratio</h4>
-<div class="chart-container w-full">
-<canvas id="mixChart"></canvas>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Value Proposition -->
-<section id="financials" class="bg-stone-900 text-stone-50 py-24">
-<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="text-center mb-16">
-<h2 class="text-3xl font-bold text-white mb-6">Why This Works for Your Building</h2>
-<p class="text-stone-400 max-w-3xl mx-auto leading-relaxed">
-                            KV Solutions provides a premium amenity that enhances the resident experience at Line 5 Condos — at absolutely no cost to the condominium corporation. We handle everything from equipment to stocking to maintenance.
-</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-<div class="bg-stone-800/50 p-8 rounded-2xl border border-stone-700/50">
-<div class="w-12 h-12 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 font-bold text-xl mb-5">$0</div>
-<p class="text-sm font-bold text-white mb-2">Zero Capital Investment</p>
-<p class="text-xs text-stone-400 leading-relaxed">No equipment purchase, no installation fees, no ongoing costs. KV Solutions owns and operates all hardware.</p>
-</div>
-<div class="bg-stone-800/50 p-8 rounded-2xl border border-stone-700/50">
-<div class="w-12 h-12 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 font-bold text-xl mb-5">✦</div>
-<p class="text-sm font-bold text-white mb-2">Premium Resident Experience</p>
-<p class="text-xs text-stone-400 leading-relaxed">Residents get 24/7 access to curated, healthy food and drinks in their building — a tangible amenity upgrade that adds real value to daily life.</p>
-</div>
-<div class="bg-stone-800/50 p-8 rounded-2xl border border-stone-700/50">
-<div class="w-12 h-12 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 font-bold text-xl mb-5">0h</div>
-<p class="text-sm font-bold text-white mb-2">Zero Staff Time</p>
-<p class="text-xs text-stone-400 leading-relaxed">No management burden on property staff. KV Solutions handles stocking, cleaning, maintenance, and resident feedback — all of it.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- Operations & Specs -->
-<section id="operations" class="py-24 bg-stone-50 border-y border-stone-200">
-<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="text-center mb-16">
-<h2 class="text-3xl font-bold text-stone-800 mb-4 tracking-tight">Operations & Equipment</h2>
-<p class="text-lg text-stone-600 max-w-3xl mx-auto">Full-service vending with no burden on your team. Here's exactly what goes into the building.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-<div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm text-center">
-<p class="text-3xl mb-3">📐</p>
-<p class="text-sm font-bold text-stone-800 mb-1">Machine Size</p>
-<p class="text-2xl font-black text-emerald-700">6' × 3' × 3'</p>
-<p class="text-[10px] text-stone-500 mt-1">72" H × 35" W × 35" D</p>
-</div>
-<div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm text-center">
-<p class="text-3xl mb-3">⚡</p>
-<p class="text-sm font-bold text-stone-800 mb-1">Electricity</p>
-<p class="text-2xl font-black text-emerald-700">~$40–55</p>
-<p class="text-[10px] text-stone-500 mt-1">Per unit / month (ON rates)</p>
-</div>
-<div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm text-center">
-<p class="text-3xl mb-3">🛡️</p>
-<p class="text-sm font-bold text-stone-800 mb-1">Insurance</p>
-<p class="text-2xl font-black text-emerald-700">Full CGL</p>
-<p class="text-[10px] text-stone-500 mt-1">Zero liability on the board</p>
-</div>
-<div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm text-center">
-<p class="text-3xl mb-3">📱</p>
-<p class="text-sm font-bold text-stone-800 mb-1">Feedback</p>
-<p class="text-2xl font-black text-emerald-700">QR Code</p>
-<p class="text-[10px] text-stone-500 mt-1">Resident feedback on each unit</p>
-</div>
-</div>
-<div class="bg-white rounded-2xl border border-stone-200 shadow-sm overflow-hidden max-w-2xl mx-auto">
-<div class="bg-stone-800 text-white px-6 py-4">
-<h3 class="font-bold text-sm uppercase tracking-widest text-center">Agreement Terms</h3>
-</div>
-<div class="divide-y divide-stone-100">
-<div class="flex justify-between items-center px-6 py-4">
-<span class="text-sm font-bold text-stone-700">Initial Term</span>
-<span class="text-sm text-stone-600">12 months</span>
-</div>
-<div class="flex justify-between items-center px-6 py-4 bg-stone-50/50">
-<span class="text-sm font-bold text-stone-700">Renewal</span>
-<span class="text-sm text-stone-600">Auto-renews annually</span>
-</div>
-<div class="flex justify-between items-center px-6 py-4">
-<span class="text-sm font-bold text-stone-700">Cancellation</span>
-<span class="text-sm text-emerald-700 font-bold">30 days written notice</span>
-</div>
-<div class="flex justify-between items-center px-6 py-4 bg-stone-50/50">
-<span class="text-sm font-bold text-stone-700">Equipment Removal</span>
-<span class="text-sm text-stone-600">Within 14 days, at no cost</span>
-</div>
-</div>
-</div>
-<p class="text-[10px] text-stone-400 text-center mt-6 italic">Electricity drawn from existing common area outlets (standard industry practice). KV Solutions is happy to discuss a hydro offset arrangement.</p>
-</div>
-</section>
-<!-- Proceed Section -->
-<section class="py-24 bg-white text-center">
-<div class="max-w-2xl mx-auto px-4">
-<div class="flex justify-center mb-10">
-<span class="w-20 h-20 rounded-full bg-emerald-50 border-4 border-emerald-100 flex items-center justify-center text-3xl">🤝</span>
-</div>
-<h2 class="text-3xl font-black text-stone-900 mb-6">Ready to Partner with KV Solutions?</h2>
-<p class="text-stone-600 text-xl leading-relaxed mb-12">
-                    This is a curated proposal specifically for the management at <strong>Line 5 Condos, 117 & 127 Broadway Ave, Toronto</strong>.
-                    If you are interested in this amenity partnership, <strong>let us know and we will proceed</strong> with the contract and installation.
-</p>
-<div class="bg-stone-50 p-6 rounded-2xl border border-stone-200 inline-block">
-<p class="text-stone-400 font-bold text-sm tracking-widest uppercase mb-1">Proposal ID</p>
-<p class="text-stone-900 font-mono font-bold text-lg">KV-LINE5-2025</p>
-</div>
-</div>
-</section>
-</main>
-<footer class="bg-stone-900 text-stone-600 py-12 border-t border-stone-800">
-<div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
-<div class="flex items-center gap-2 text-white font-bold italic">
-                KV SOLUTIONS
-</div>
-<p class="text-[10px] uppercase tracking-widest text-stone-500">&copy; 2025 KV Solutions Toronto. Confidential Partnership Proposal.</p>
-</div>
-</footer>
-<script>
-const locationData = {
-            gym: {
-                title: "Fitness Center",
-                desc: "Optimized for post-workout recovery and sustained energy. We prioritize hydration and high-protein content without artificial additives.",
-                products: [
-"🥥 Organic Cold-Pressed Coconut Water",
-"🥤 Whey & Plant-Based Protein Shakes",
-"🥜 High-Protein Clean Nut Mixes",
-"💧 Bottled Water",
-"🥣 Granola Bars"
-],
-                chartLabels: ['Hydration', 'Protein', 'Clean Energy'],
-                chartData: [45, 40, 15],
-                colors: ['#059669', '#10b981', '#6ee7b7']
-},
-            coworking: {
-                title: "Co-working Lounge",
-                desc: "Fuel for deep work and long hours. Curated for the professionals at Line 5 — clean caffeine, sustained energy, and smart snacking.",
-                products: [
-"☕ Ready-to-Drink Cold Brew Coffee",
-"🍵 Matcha Latte (Matchabar)",
-"🥜 Mixed Nuts & Trail Mix",
-"🍫 RXBar / Quest Protein Bars",
-"💧 Sparkling Water (LaCroix)"
-],
-                chartLabels: ['Brain Fuel', 'Sustained Energy', 'Hydration'],
-                chartData: [40, 35, 25],
-                colors: ['#047857', '#10b981', '#a7f3d0']
-}
-};
-let mixChartInstance = null;
-function updateContent(locationKey) {
-const data = locationData[locationKey];
-            document.getElementById('loc-title').innerText = data.title;
-            document.getElementById('loc-desc').innerText = data.desc;
-const listEl = document.getElementById('loc-products');
-            listEl.innerHTML = '';
-            data.products.forEach(prod => {
-const li = document.createElement('li');
-                li.className = "flex items-center text-stone-700 font-semibold text-sm";
-                li.innerHTML = `<span class="bg-emerald-100 text-emerald-700 w-6 h-6 rounded-md flex items-center justify-center mr-4 text-xs">✔</span> <span>${prod}</span>`;
-                listEl.appendChild(li);
-});
-const contentDisplay = document.getElementById('content-display');
-            contentDisplay.classList.remove('fade-in');
-void contentDisplay.offsetWidth;
-            contentDisplay.classList.add('fade-in');
-if (mixChartInstance) {
-                mixChartInstance.data.labels = data.chartLabels;
-                mixChartInstance.data.datasets[0].data = data.chartData;
-                mixChartInstance.data.datasets[0].backgroundColor = data.colors;
-                mixChartInstance.update();
-} else {
-const ctx = document.getElementById('mixChart').getContext('2d');
-                mixChartInstance = new Chart(ctx, {
-                    type: 'doughnut',
-                    data: {
-                        labels: data.chartLabels,
-                        datasets: [{
-                            data: data.chartData,
-                            backgroundColor: data.colors,
-                            borderWidth: 0,
-                            hoverOffset: 12
-}]
-},
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        cutout: '80%',
-                        plugins: {
-                            legend: {
-                                position: 'bottom',
-                                labels: { color: '#78716c', padding: 25, font: { weight: '700', size: 10 } }
-}
-}
-}
-});
-}
-}
-        document.addEventListener('DOMContentLoaded', () => {
-            updateContent('gym');
-const buttons = document.querySelectorAll('.tab-btn');
-            buttons.forEach(btn => {
-                btn.addEventListener('click', (e) => {
-                    buttons.forEach(b => b.classList.remove('active'));
-                    e.currentTarget.classList.add('active');
-                    updateContent(e.currentTarget.getAttribute('data-target'));
-});
-});
-});
-</script>
 </body>
 </html>
