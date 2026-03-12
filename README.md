@@ -6,7 +6,7 @@
 
 ---
 
-**Contact:** kshamta99@gmail.com | sakshamgulati123@gmail.com
+**Contact:** harshpunjabi2408@gmail.com | sakshamgulati123@gmail.com
 
 ---
 
@@ -127,6 +127,6 @@ Each machine features a QR code linking to a resident feedback form. This allows
 This proposal is specifically curated for **Line 5 Condos at 117 & 127 Broadway Ave, Toronto**. If you are interested in proceeding with this amenity upgrade, simply let us know via email.
 
 **KV Solutions Toronto**
-- **Primary Contacts:** kshamta99@gmail.com | sakshamgulati123@gmail.com
+- **Primary Contacts:** harshpunjabi2408@gmail.com | sakshamgulati123@gmail.com
 - **Project Site:** [https://sakshamgulati.github.io/kv_solutions/](https://sakshamgulati.github.io/kv_solutions/)
 - **Proposal ID:** KV-LINE5-2025
